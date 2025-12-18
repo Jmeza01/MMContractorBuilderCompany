@@ -3650,6 +3650,7 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		border-radius: 50px;
 	}
 
 		#nav ul.divided li {
@@ -3739,7 +3740,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1.25rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -3790,6 +3791,7 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		border-radius: 50px;
 	}
 
 		#main > * {
@@ -4603,7 +4605,7 @@ input, select, textarea {
 		position: fixed;
 		right: 0;
 		top: 0;
-		visibility: hidden;
+		visibility: visible;
 		width: 20rem;
 		z-index: 10002;
 	}
@@ -4647,11 +4649,11 @@ input, select, textarea {
 			height: 3.25rem;
 			line-height: 3.25rem;
 			padding-right: 1.25rem;
+			padding-left: 1.25rem;
 			position: absolute;
 			right: 0;
-			text-align: right;
+			text-align: center;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
